@@ -8,5 +8,6 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "outDir": "./build"                             
-  }
+  },
+  "exclude": ["build", "node_modules"]
 }
