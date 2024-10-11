@@ -64,7 +64,7 @@ module.exports = [
         ecmaVersion: 2021,
         sourceType: 'module',
         tsconfigRoot: './',
-        project: './tsconfig.json',
+        // project: './tsconfig.json',
       },
     },
     plugins: {

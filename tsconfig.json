@@ -7,7 +7,9 @@
     "strict": true,                                  
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "outDir": "./build"                             
+    "outDir": "./build",
+    "rootDir": "./src"                             
   },
+  "include": ["src/**/*.ts", "eslint.config.cjs"],
   "exclude": ["build", "node_modules"]
 }
