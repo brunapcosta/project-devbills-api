@@ -3,10 +3,11 @@ import { Request, Response } from "express";
 import { CategoriesService } from "../services/category.services";
 
 export class CategoriesController {
-    create = async (req: Request, res: Response) => {
+
+    async create(req: Request, res: Response): Promise<Response> {
             const service = new CategoriesService();
 
-            const result = await service.create();
+            const result = await service.create(req.body.title, req.body.color);
             
             return res.status(201).json(result);
 }

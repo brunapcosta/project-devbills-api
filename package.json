@@ -1,24 +1,22 @@
 {
   "name": "project-devbills-api",
   "version": "1.0.0",
-  "description": "DevBills API: Controle sua vida financeira pessoal de forma rápida e segura",
+  "description": "y",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./ --fix",
     "dev": "tsx watch ./src/server.ts"
   },
   "keywords": [],
-  "author": {
-    "name": "Bruna Costa",
-    "email": "brunapadidacosta@gmail.com",
-    "url": "https://github.com/brunapcosta"
-  },
+  "author": "Bruna Costa <brunapadidacosta@gmail.com> (https://github.com/brunapcosta)",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
     "@types/eslint": "^9.6.1",
     "@types/express": "^5.0.0",
     "@types/jest": "^29.5.13",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.7.5",
     "@typescript-eslint/eslint-plugin": "^8.8.1",
     "@typescript-eslint/parser": "^8.8.1",
     "eslint": "^8.57.1",
@@ -34,7 +32,11 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "esbuild-wasm": "^0.24.0",
     "express": "^4.21.1",
+    "mongodb": "^6.9.0",
     "mongoose": "^8.7.1"
-  }
+  },
+  "repository": "https://github.com/brunapcosta/project-devbills-api.git"
 }
